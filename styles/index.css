@@ -1,0 +1,415 @@
+body {
+    width: 100%;
+    margin: 0%;
+}
+
+.page1 {
+    width: 100%;
+    background: url(../assets/page1bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    padding: 2%;
+    background: rgba(230, 221, 208, 0.87);
+    justify-content: center;
+    align-items: center;
+}
+
+.header #headlogo {
+    display: flex;
+    width: 23rem;
+    height: 5rem;
+    flex-direction: column;
+    color: #F00;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: serif;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header .tabs {
+    color: #000;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.startButton {
+    width: 11rem;
+    height: 3.5rem;
+    background: #1A8FDD;
+    border: none;
+    border-radius: 0.6rem;
+    color: #000000;
+    text-align: center;
+    font-family: serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.getStarted {
+    display: flex;
+    width: 53%;
+    margin-left: 10.4%;
+    padding-top: 10.4%;
+    padding-bottom: 10.4%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3.5rem;
+}
+
+.getStarted #title {
+    color: #000;
+    font-family: 'Times New Roman';
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.getStarted #content {
+    color: rgba(24, 25, 0, 0.99);
+    font-family: arial;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #676767;
+}
+
+.page2 {
+    width: 100%;
+    background: rgba(241, 231, 214, 0.80);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-image: url(../assets/page2bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page2 .title {
+    width: 50%;
+    height: 6rem;
+    background: #D9D9D9;
+    border-radius: 1rem;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page2 .content {
+    display: flex;
+    margin: auto;
+}
+
+.page2 .content .contentbox {
+    width: 50%;
+    margin: 2%;
+    border-radius: 1rem;
+    background: #D9D9D9;
+    padding: 3.5%;
+}
+
+.page2 .content .contentbox #title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #141414;
+    text-align: left;
+    font-family: cursive;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.page2 .content .contentbox #content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: #464646;
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page2 .content #arrow {
+    width: 17.31263rem;
+    margin: auto;
+    stroke-width: 7px;
+    stroke: #000;
+}
+
+.page3 {
+    width: 100%;
+    background-image: #D9D9D9;
+    background-image: url(../assets/page3bg.jpg);
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.page3 #title {
+    width: 50%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page3 #content {
+    width: 45%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    color: #1D0000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page3 .reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8%;
+}
+
+.page3 .reviews .review {
+    width: 21%;
+    background: #FFF2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.page3 .reviews .review #I {
+    width: 100%;
+    height: 15rem;
+    background: url(../assets/person1.jpg);
+    background-size: cover;
+}
+
+.page3 .reviews .review #II {
+    width: 100%;
+    height: 15rem;
+    background: url(../assets/person2.jpg);
+    background-size: cover;
+}
+
+.page3 .reviews .review #III {
+    width: 100%;
+    height: 15rem;
+    background: url(../assets/person3.jpg);
+    background-size: cover;
+}
+
+.page3 .reviews .review .stars {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+.page3 .reviews .review .stars #star {
+    height: 1.3rem;
+    fill: #FFF500;
+    stroke-width: 1px;
+    stroke: #B64C00;
+}
+
+.page3 .reviews .review #text {
+    height: 28%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #040000;
+    font-family: serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 2rem;
+}
+
+.page4 {
+    width: 86%;
+    background: #ffe6c5c5;
+    padding: 7%;
+}
+
+.page4 #title {
+    width: 30%;
+    color: #292929;
+    padding-bottom: 2%;
+    font-family: arial;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.page4 #content {
+    width: 62%;
+    color: #474646;
+    padding-bottom: 2%;
+    font-family: 'Times New Roman';
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page5 {
+    display: flex;
+    flex-direction: row;
+    width: 86%;
+    padding: 7%;
+    background: #FFF;
+    justify-content: left;
+    gap: 17%;
+}
+
+.page5 .links {
+    color: #000;
+    font-family: serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: 170%;
+}
+
+.page5 .links #title {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.page5 .links .content {
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.page5 .descript {
+    flex-shrink: 0;
+}
+
+.page5 .descript #text {
+    display: flex;
+    width: 30vw;
+    height: 9.8125rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    font-family: arial;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+}
+
+.active.fade-left {
+    animation: fade-left 1s ease-in;
+}
+
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
